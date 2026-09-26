@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RHSEARCH</title>
+  <meta name="description" content="Aplicação para comparar perfil de candidato.">
+  <link rel="stylesheet" href="./assets/styles/index.styles.css">
+</head>
+<body>
+  <header>
+    <h1>RHSEARCH -SkillMatch Web</h1>
+  </header>
+
+  <main>
+<!-- Formulário de perfil -->
+    <section>
+      <h2>Preencha seu perfil</h2>
+      <form id="perfilForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label for="area">Área de interesse:</label>
+        <input type="text" id="area" required>
+
+        <label for="habilidades">Habilidades (separadas por vírgula):</label>
+        <input type="text" id="habilidades" required>
+
+        <label for="experiencia">Tempo de experiência (em anos):</label>
+        <input type="number" id="experiencia" min="0" required>
+
+        <button type="submit">Analisar</button>
+      </form>
+      <p id="erroForm" style="color:red; display:none;">Preencha todos os campos corretamente.</p>
+    </section>
+
+<!-- Área de resultados -->
+    <section id="resultados">
+      <h2>Resultados:</h2>
+      <div id="cardsVagas"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 RHSEARCH - Dev: @henriquekfilho</p>
+  </footer>
+
+  <script type="module" src="./assets/scripts/main.js"></script>
+</body>
+</html>
