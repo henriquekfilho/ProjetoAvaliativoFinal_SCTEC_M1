@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "empresa": "Tech Startup",
+    "cargo": "Front-End Júnior",
+    "requisitos": ["HTML", "CSS", "JavaScript", "Git"],
+    "salario": "R$ 3.000",
+    "modalidade": "Remoto"
+  },
+  {
+    "id": 2,
+    "empresa": "Agência Digital",
+    "cargo": "Estagiário Front-End",
+    "requisitos": ["HTML", "CSS"],
+    "salario": "R$ 1.500",
+    "modalidade": "Presencial"
+  },
+  {
+    "id": 3,
+    "empresa": "E-commerce",
+    "cargo": "Desenvolvedor Front-End Pleno",
+    "requisitos": ["HTML", "CSS", "JavaScript", "React", "Git"],
+    "salario": "R$ 6.000",
+    "modalidade": "Híbrido"
+  },
+  {
+    "id": 4,
+    "empresa": "Consultoria Tech",
+    "cargo": "Front-End Júnior",
+    "requisitos": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    "salario": "R$ 3.500",
+    "modalidade": "Remoto"
+  }
+]
